@@ -7,8 +7,8 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import faiss  # Import FAISS library
 
-API_URL = "https://api.siliconflow.cn/v1/chat/completions"
-API_KEY = "sk-iebqbxokiekwqfnrafdpiuxcciiyuwlqkugnheppjddwouao"
+API_URL = "https://api.siliconflow.cn/v1/chat/completions" #Input your API url
+API_KEY = "" #Input your API key
 MODEL = "deepseek-ai/DeepSeek-V3"
 TOP_K = 10
 
